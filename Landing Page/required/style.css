@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,300&family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: rgb(215, 215, 214) ;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Pacifico', sans-serif;
+}
+hr{
+    color: aliceblue;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft{
+    width: 50%;
+}
+
+.topright{ 
+    width: 50%;
+}
+.container ul li:hover{
+ color: rgb(160, 180, 227);
+ cursor: pointer;
+}
+.section1{
+   max-height: 100vh; 
+   color: rgb(160, 180, 227);
+}
+
+.section1 h1{
+    color: rgb(160, 180, 227);
+    font-size: 2rem;
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.dumbellimg{
+    width: 289px;
+}
+
+.topright .gymimg{
+    width: 466px;
+}
+
+.section2{
+    padding: 73px;
+}
+
+.section2 h1{
+    font-size: 2.3rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    background-color: rgb(31, 43, 70);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+   margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{ 
+    width: 23vw; 
+    border-bottom: 2px solid white;
+    padding: 15px 0;
+} 
+
+.section3 table td{   
+    border-bottom: 2px solid white; 
+} 
+ 
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 73px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin: 12px 0;
+    color: rgb(223, 64, 64);
+}
+
+.contact-section {
+    padding: 20px;
+}
+
+.contact-section a {
+    color: #007BFF; 
+    text-decoration: none;
+}
+
+.contact-section a:visited {
+    color: #007BFF; 
+}
+
+.contact-section a:hover {
+    color: #0056b3; /* Change color on hover */
+}
+.min-h-screen{
+    min-height: 100vh;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.font-bold{
+    font-weight: bolder;
+}
+
+.my-1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.my-2{
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.px-2{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.text-blue{
+    color: rgb(160, 180, 227);
+}
+
+.btn{
+    padding:7px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    height: 50px;
+    width: 200px;
+    font-weight: 800;
+    background-color: rgb(102, 139, 224);
+    margin-right: 20px;
+}
+.btn:hover{
+    background-color: rgb(5, 25, 74);
+    color: white;
+}
+
+.overflow{
+    overflow-x: hidden;
+}
+
+.text-center{
+    text-align: center;
+}

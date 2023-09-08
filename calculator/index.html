@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./required/style.css">
+<link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+<title>Calculator</title>
+</head>
+
+<body>
+<div class=" calculator-background ">
+  <input type="text" id="inputField" class="input" disabled placeholder="Enter">
+  <div>
+  <button onclick="handleButtonClick('7')">7</button>
+  <button onclick="handleButtonClick('8')">8</button>
+  <button onclick="handleButtonClick('9')">9</button>
+   <button onclick="handleButtonClick('/')">/</button>
+  </div>
+
+  <div>
+  <button onclick="handleButtonClick('4')">4</button>
+  <button onclick="handleButtonClick('5')">5</button>
+  <button onclick="handleButtonClick('6')">6</button>
+   <button onclick="handleButtonClick('*')">*</button>
+  </div>
+
+  <div>
+  <button onclick="handleButtonClick('1')">1</button>
+  <button onclick="handleButtonClick('2')">2</button>
+  <button onclick="handleButtonClick('3')">3</button>
+    <button onclick="handleButtonClick('-')">-</button>
+  </div>
+
+  <div>
+  <button onclick="handleButtonClick('0')">0</button>
+  <button onclick="handleButtonClick('.')">.</button>
+  <button onclick="calculateResult()">=</button>
+  <button onclick="handleButtonClick('+')">+</button>
+  </div>
+
+  <button class="clear-btn" onclick="clearInput()">Clear</button>
+</div>
+ 
+
+<script src="./required/script.js"></script>
+</body>
+</html>
